@@ -18,9 +18,6 @@ saleTime, smallText, midText, desc, product, buttonText, image}}) => {
                     <p>{smallText}</p>
                     <h3>{midText}</h3>
                     <p>{desc}</p>
-                    <Link href={`/product/${product}`}>
-                        <button type="button">{buttonText}</button>
-                    </Link>
                 </div>
                 <img
                     src={urlFor(image)}
